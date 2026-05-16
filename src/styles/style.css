@@ -1,7 +1,6 @@
 @import url(./global.css);
 
-/* Header */
-header {
+header{
     background-color: var(--color-secondary);
     display: flex;
     justify-content: center;
@@ -11,24 +10,24 @@ header {
     border-bottom: 2px solid var(--color-primary);
 }
 
-.container-nav-header {
+.container-nav-header{
     display: flex;
     align-items: center;
     gap: 139px;
 }
 
-.navigation-header ul {
+.navigation-header ul{
     display: flex;
     gap: 45px;
     list-style: none;
 }
 
-.navigation-header ul li a {
+.navigation-header ul li a{
     text-decoration: none;
     color: var(--color-neutral-white);
 }
 
-.btn-header {
+.btn-header{
     font-family: var(--font-family-primary);
     text-decoration: none;
     background-color: var(--color-primary);
@@ -38,10 +37,9 @@ header {
     font-weight: var(--font-weight-button);
 }
 
-/* Main  */
+/* --------------- MAIN --------------- */
 
-
-main {
+main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,14 +55,14 @@ main {
     width: 497px;
 }
 
-.main-content h1 {
+.main-content h1{
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-h1);
     font-family: var(--font-family-primary);
     color: var(--color-neutral-white);
 }
 
-.main-content h1 span {
+.main-content h1 span{
     color: var(--color-primary);
 }
 
@@ -75,7 +73,7 @@ main {
     color: var(--color-neutral-white);
 }
 
-.main-content a {
+.main-content a{
     display: flex;
     justify-content: center;
     padding: 10px 25px;
@@ -89,75 +87,62 @@ main {
     align-self: flex-start;
 }
 
+/* --------------- Section CONTROL --------------- */
 
-/* Section - Presetation */
-
-.section-presetation {
+.section-control {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 60px 100px;
-    padding: 100px;
-    background-color: var(--color-neutral-white);
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0;
+    width: 1280px;
+    height: 674px;
+    margin-left: 150px;
 }
 
-.section-presetation .content {
+.control-content {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    max-width: 600px;
+    gap: 30px;
+    width: 570px;
 }
 
-.section-presetation .content h2 {
+.control-content h2{
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     font-family: var(--font-family-primary);
-    color: var(--color-secondary);
-    line-height: 1.2;
 }
 
-.section-presetation .content h2 span {
-    display: block;
+.control-content h2 span{
     color: var(--color-primary);
 }
 
-.section-presetation .content p {
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-body);
+/* ----- Section Chart ----- */
+.section-chart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 24px;
+    background-color: var(--color-secondary);
+}
+
+.chart-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-neutral-white);
+    width: 730px;
+    gap: 16px;
+}
+.chart-content h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
     font-family: var(--font-family-primary);
-    color: var(--color-secondary);
+    height: 54px;
 }
 
-/* Section-graphic */
-.section-graphic {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 0px;
-  gap: 24px;
-  background-color: var(--color-secondary);
+.chart-content h2 span{
+    color: var(--color-primary);
 }
-
-.section-graphic h2 {
-  font-size: var(--font-size-h2);
-  font-weight: var(--font-weight-h2);
-  font-family: var(--font-family-primary);
-  color: var(--color-neutral-white);
-  text-align: center;
-}
-
-.section-graphic h2 span {
-  color: var(--color-primary);
-}
-
-.section-graphic p {
-  font-size: var(--font-size-body);
-  font-weight: var(--font-weight-body);
-  font-family: var(--font-family-primary);
-  color: var(--color-neutral-white);
-  text-align: center;
-  max-width: 650px;
-}
-
-
