@@ -88,3 +88,46 @@ main{
     align-self: flex-start;
 }
 
+
+/* Section - Presetation */
+/* Section - Presentation */
+
+/* Section-Infos */
+.section-presetation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px 100px;
+  padding: 100px;
+  background-color: #fff;
+}
+
+
+.section-presetation .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 600px;
+}
+
+.section-presetation .content h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-h2);
+  font-family: var(--font-family-primary);
+  color: #0d0d2b;
+  line-height: 1.2;
+}
+
+.section-presetation .content h2 span {
+  display: block;
+  color: var(--color-primary);
+}
+
+.section-presetation .content p {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  font-family: var(--font-family-primary);
+  color: #333;
+  line-height: 1.7;
+}
+
