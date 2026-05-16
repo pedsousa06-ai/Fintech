@@ -1,0 +1,41 @@
+@import url(./global.css);
+
+/* Header */
+header{
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px 0;
+    gap: 139px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.container-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 139px;
+}
+
+.navigation-header ul{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.navigation-header ul li a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button);
+}
+
+/* Main  */
