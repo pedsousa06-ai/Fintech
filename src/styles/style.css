@@ -1,11 +1,6 @@
 @import url(./global.css);
 
-/*
-   BASE STYLES
- */
-
-/* --------------- HEADER & NAV --------------- */
-header {
+header{
     background-color: var(--color-secondary);
     display: flex;
     justify-content: center;
@@ -15,29 +10,24 @@ header {
     border-bottom: 2px solid var(--color-primary);
 }
 
-.container-nav-header {
+.container-nav-header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1152px;
-    gap: 40px;
-    padding: 0 20px;
+    gap: 139px;
 }
 
-.navigation-header ul {
+.navigation-header ul{
     display: flex;
     gap: 45px;
     list-style: none;
 }
 
-.navigation-header ul li a {
+.navigation-header ul li a{
     text-decoration: none;
     color: var(--color-neutral-white);
-    font-family: var(--font-family-primary);
 }
 
-.btn-header {
+.btn-header{
     font-family: var(--font-family-primary);
     text-decoration: none;
     background-color: var(--color-primary);
@@ -45,16 +35,16 @@ header {
     border-radius: 10px;
     padding: 10px 20px;
     font-weight: var(--font-weight-button);
-    white-space: nowrap;
 }
 
-/* --------------- MAIN (HERO) --------------- */
-main {
+/* --------------- MAIN --------------- */
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 100px 20px;
+    padding: 100px 0;
     background-color: var(--color-secondary);
 }
 
@@ -62,19 +52,17 @@ main {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 100%;
-    max-width: 497px;
+    width: 497px;
 }
 
-.main-content h1 {
+.main-content h1{
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-h1);
     font-family: var(--font-family-primary);
     color: var(--color-neutral-white);
-    line-height: 1.2;
 }
 
-.main-content h1 span {
+.main-content h1 span{
     color: var(--color-primary);
 }
 
@@ -85,8 +73,8 @@ main {
     color: var(--color-neutral-white);
 }
 
-.main-content a {
-    display: inline-flex;
+.main-content a{
+    display: flex;
     justify-content: center;
     padding: 10px 25px;
     gap: 10px;
@@ -99,456 +87,301 @@ main {
     align-self: flex-start;
 }
 
-/* --------------- SECTION CONTROL --------------- */
+/* --------------- Section CONTROL --------------- */
+
 .section-control {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 60px 20px;
-    width: 100%;
-    max-width: 1280px;
-    min-height: 674px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    padding: 60px 0;
+    width: 1280px;
+    height: 674px;
+    margin-left: 150px;
 }
 
 .control-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 100%;
-    max-width: 570px;
+    width: 570px;
 }
 
-.control-content h2 {
+.control-content h2{
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     font-family: var(--font-family-primary);
-    line-height: 1.3;
 }
 
-.control-content h2 span {
+.control-content h2 span{
     color: var(--color-primary);
 }
 
-/* --------------- SECTION CHART --------------- */
-.section-chart {
+/* ----- Section Chart ----- */
+.section-chart{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 60px 20px;
+    padding: 60px 0px;
     gap: 24px;
     background-color: var(--color-secondary);
 }
 
-.chart-content {
+.chart-content{
     display: flex;
     flex-direction: column;
     text-align: center;
     color: var(--color-neutral-white);
-    width: 100%;
-    max-width: 730px;
+    width: 730px;
     gap: 16px;
 }
+.chart-content h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    font-family: var(--font-family-primary);
+    height: 54px;
+}
 
-.chart-content h2 {
+.chart-content h2 span{
+    color: var(--color-primary);
+}
+
+/* Footer */
+@import url(./global.css);
+
+header{
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px 0;
+    gap: 139px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.container-nav-header{
+    display: flex;
+    align-items: center;
+    gap: 139px;
+}
+
+.navigation-header ul{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+.navigation-header ul li a{
+    text-decoration: none;
+    color: var(--color-neutral-white);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button);
+}
+
+/* --------------- MAIN --------------- */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+    background-color: var(--color-secondary);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 497px;
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+}
+
+.main-content h1 span{
+    color: var(--color-primary);
+}
+
+.main-content p {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+}
+
+.main-content a{
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 10px;
+    border-radius: 8px;
+    color: var(--color-neutral-white);
+    border: 1px solid var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-weight-button);
+    font-family: var(--font-family-primary);
+    align-self: flex-start;
+}
+
+/* --------------- Section CONTROL --------------- */
+
+.section-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0;
+    width: 1280xpx;
+    height: 674px;
+    margin-left: 150px;
+}
+
+.control-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 570px;
+}
+
+.control-content h2{
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-h2);
     font-family: var(--font-family-primary);
 }
 
-.chart-content h2 span {
+.control-content h2 span{
     color: var(--color-primary);
 }
 
-/* --------------- FOOTER --------------- */
-footer {
+/* ----- Section Chart ----- */
+.section-chart{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 24px;
+    background-color: var(--color-secondary);
+}
+
+.chart-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-neutral-white);
+    width: 700px;
+    gap: 16px;
+}
+.chart-content h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    font-family: var(--font-family-primary);
+    height: 54px;
+}
+
+.chart-content h2 span{
+    color: var(--color-primary);
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
     background-color: var(--color-secondary);
     color: var(--color-neutral-white);
-    padding: 80px 20px;
+    padding: 80px 0;
+    gap: 126px;
     border-top: 1px solid var(--color-neutral-white);
 }
 
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 1152px;
-    gap: 40px;
-}
-
-.content-footer {
+.content-footer{
     display: flex;
     align-items: flex-start;
     gap: 72px;
 }
 
-.quick-links {
+.quick-links{
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.quick-links h2 {
+.quick-links h2{
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
 }
 
-.content-links ul {
+.content-links ul{
     display: flex;
     flex-direction: column;
     gap: 12px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
-.content-links li {
+.content-links li{
     list-style: none;
 }
 
-.content-links a {
+.content-links a{
     text-decoration: none;
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
-    transition: opacity 0.3s;
+    transition: 0.3s;
 }
 
-.content-links a:hover {
-    opacity: 0.7;
-}
-
-.footer-subscribe {
+.footer-subscribe{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-subscribe h2 {
+.footer-subscribe h2{
     font-family: var(--font-family-primary);
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
-    max-width: 198px;
+    width: 198px;
 }
 
-form {
+form{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 385px;
+    width: 385px;
     border-bottom: 1px solid #4d4d4d;
     padding-bottom: 16px;
-    gap: 10px;
 }
 
-input {
+input{
     background-color: transparent;
     color: var(--color-neutral-white);
-    border: none;
-    outline: none;
-    width: 100%;
-    font-family: var(--font-family-primary);
 }
 
-.footer-subscribe button {
+.footer-subscribe button{
     width: 32px;
     height: 32px;
-    flex-shrink: 0;
     border: none;
-    border-radius: 50%;
+    border-radius: 20px;
     background-color: #8B3DFF;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.3s;
+    transition: 0.3s;
 }
 
-.footer-subscribe button:hover {
+.footer-subscribe button:hover{
     transform: scale(1.05);
-}
-
-
-/* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
-
-/* ------------------------------------------------------------------
-   1440px — Desktop grande / widescreen
-   Expande espaçamentos e aumenta containers para telas largas
------------------------------------------------------------------- */
-@media (min-width: 1440px) {
-    .container-nav-header,
-    .container-footer {
-        max-width: 1320px;
-    }
-
-    .section-control {
-        max-width: 1440px;
-        gap: 120px;
-    }
-
-    main {
-        gap: 80px;
-        padding: 120px 40px;
-    }
-
-    .main-content {
-        max-width: 560px;
-    }
-
-    .chart-content {
-        max-width: 860px;
-    }
-
-    footer {
-        padding: 100px 40px;
-    }
-}
-
-/* ------------------------------------------------------------------
-   1280px — Desktop padrão
-   Espaçamentos equilibrados para a maioria dos monitors
------------------------------------------------------------------- */
-@media (max-width: 1280px) {
-    .container-nav-header,
-    .container-footer {
-        max-width: 1080px;
-    }
-
-    .section-control {
-        max-width: 1080px;
-        gap: 80px;
-    }
-
-    .content-footer {
-        gap: 50px;
-    }
-}
-
-/* ------------------------------------------------------------------
-   1024px — Laptop / tablet landscape
-   Começa a compactar gaps e ajustar navegação
------------------------------------------------------------------- */
-@media (max-width: 1024px) {
-    header {
-        padding: 36px 20px;
-    }
-
-    .container-nav-header {
-        gap: 24px;
-    }
-
-    .navigation-header ul {
-        gap: 28px;
-    }
-
-    main {
-        gap: 40px;
-        padding: 80px 30px;
-    }
-
-    .section-control {
-        gap: 60px;
-        min-height: auto;
-        padding: 60px 30px;
-    }
-
-    .control-content {
-        max-width: 480px;
-    }
-
-    .content-footer {
-        gap: 40px;
-    }
-
-    footer {
-        padding: 70px 30px;
-    }
-}
-
-/* ------------------------------------------------------------------
-   768px — Tablet retrato
-   Layout passa para uma coluna; elementos empilhados e centralizados
------------------------------------------------------------------- */
-@media (max-width: 768px) {
-    /* Header */
-    header {
-        padding: 24px 20px;
-    }
-
-    .container-nav-header {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 16px;
-    }
-
-    .navigation-header ul {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    /* Main / Hero */
-    main {
-        flex-direction: column;
-        text-align: center;
-        padding: 60px 24px;
-        gap: 40px;
-    }
-
-    .main-content {
-        align-items: center;
-        max-width: 100%;
-    }
-
-    .main-content a {
-        align-self: center;
-    }
-
-    /* Section Control */
-    .section-control {
-        flex-direction: column;
-        text-align: center;
-        padding: 50px 24px;
-        gap: 40px;
-        min-height: auto;
-    }
-
-    .control-content {
-        align-items: center;
-        max-width: 100%;
-    }
-
-    /* Section Chart */
-    .section-chart {
-        padding: 50px 24px;
-    }
-
-    .chart-content {
-        max-width: 100%;
-    }
-
-    /* Footer */
-    footer {
-        padding: 60px 24px;
-    }
-
-    .container-footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 48px;
-    }
-
-    .content-footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
-        width: 100%;
-    }
-
-    .footer-subscribe {
-        align-items: center;
-        width: 100%;
-    }
-
-    .footer-subscribe h2 {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    form {
-        margin: 0 auto;
-        max-width: 340px;
-    }
-}
-
-/* ------------------------------------------------------------------
-   480px — Smartphones
-   Fontes menores, espaçamentos compactos, navegação simplificada
------------------------------------------------------------------- */
-@media (max-width: 480px) {
-    /* Header */
-    header {
-        padding: 20px 16px;
-    }
-
-    .container-nav-header {
-        flex-direction: column;
-        gap: 14px;
-    }
-
-    .navigation-header ul {
-        gap: 16px;
-        justify-content: center;
-    }
-
-    .btn-header {
-        padding: 9px 18px;
-        font-size: 0.875rem;
-    }
-
-    /* Main / Hero */
-    main {
-        padding: 48px 16px;
-        gap: 32px;
-    }
-
-    .main-content h1 {
-        font-size: calc(var(--font-size-h1) * 0.75);
-    }
-
-    .main-content p {
-        font-size: calc(var(--font-size-body) * 0.95);
-    }
-
-    .main-content a {
-        padding: 10px 20px;
-        font-size: 0.875rem;
-    }
-
-    /* Section Control */
-    .section-control {
-        padding: 40px 16px;
-        gap: 30px;
-    }
-
-    .control-content h2 {
-        font-size: calc(var(--font-size-h2) * 0.8);
-    }
-
-    /* Section Chart */
-    .section-chart {
-        padding: 40px 16px;
-        gap: 20px;
-    }
-
-    .chart-content h2 {
-        font-size: calc(var(--font-size-h2) * 0.8);
-    }
-
-    /* Footer */
-    footer {
-        padding: 48px 16px;
-    }
-
-    .container-footer {
-        gap: 36px;
-    }
-
-    .content-footer {
-        gap: 28px;
-    }
-
-    form {
-        max-width: 100%;
-    }
 }
