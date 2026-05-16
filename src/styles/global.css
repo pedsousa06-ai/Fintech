@@ -1,0 +1,41 @@
+/* --- RESET DO CSS --- */
+* {
+    border: 0; /* Borda do Elemento -> Zeramos */
+    margin: 0; /* Distância externa -> Zeramos */
+    padding: 0; /* Espaçamento interno -> Zeramos */
+    box-sizing: border-box; /* respeitar Largura e altura */
+}
+
+/*  --- VARIÁVEIS CSS --- */
+:root {
+
+    /* --- Cores --- */
+    --color-primary: #9130F4;
+    --color-secondary: #121139;
+    --color-neutral-white: #FFFFFF;
+
+    /* --- FONTES --- */
+    /* -- SIZE -- */
+    --font-size-h1: 54px;
+    --font-size-h2: 45px;
+    --font-size-h3: 35px;
+    --font-size-h4: 25px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+
+    /* -- WEIGHT -- */
+   --font-weight-h1: 700; /* Variável Espessura da fonte */
+    --font-weight-h2: 700; /* Variável Espessura da fonte */
+    --font-weight-h3: 700; /* Variável Espessura da fonte */
+    --font-weight-h4: 500; /* Variável Espessura da fonte */
+    --font-weight-body: 400; /* Variável Espessura da fonte */
+    --font-weight-button: 700; /* Variável Espessura da fonte */
+    --font-weight-caption: 400; /* Variável Espessura da fonte */
+
+    /* FAMILY */
+    --font-family-primary: "Inter", sans-serif; /* Variável família da fonte  */
+
+}
+
+
